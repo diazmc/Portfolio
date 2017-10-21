@@ -8,8 +8,12 @@
     background-color: black;
     color: white;
     opacity: 0.75;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-align: right;
+    font-size: 25px;
+    padding-right: 10px;
 }
 
-#contact {
+#about_me, #projects, #contact {
     text-align: center;
 }
