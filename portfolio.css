@@ -1,3 +1,15 @@
 #header {
-    background-color: gray;
+    color: black;
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+#bar {
+    background-color: black;
+    color: white;
+    opacity: 0.75;
+}
+
+#contact {
+    text-align: center;
 }
