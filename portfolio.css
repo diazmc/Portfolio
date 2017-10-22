@@ -1,3 +1,12 @@
+#about_me, #projects, #contact {
+    text-align: center;
+}
+
+#background {
+    width: 100%;
+    position: static;
+}
+
 #header {
     color: black;
     font-family: 'Raleway';
@@ -14,22 +23,13 @@
     text-align: left;
     padding-left: 10px;
     font-size: 5vw;
-    margin: auto;
     width: 100%;
-
+    position: absolute;
+    top: 67px;
 }
 
-#bar p span:hover {
+#bar span:hover {
     background-color: white;
     color: black;
     cursor: pointer;
-}
-
-
-#about_me, #projects, #contact {
-    text-align: center;
-}
-
-#background {
-    position: absolute;
 }
