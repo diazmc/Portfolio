@@ -5,6 +5,7 @@
 #background {
     width: 100%;
     position: static;
+    display: none;
 }
 
 #header {
@@ -32,4 +33,5 @@
     background-color: white;
     color: black;
     cursor: pointer;
+    border-bottom: 1px;
 }
