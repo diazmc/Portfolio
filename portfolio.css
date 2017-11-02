@@ -1,14 +1,21 @@
-#about_me, #projects, #contact {
+h2 {
     text-align: center;
+    font-family: 'Raleway';
+    margin-bottom: 0px;
 }
 
-#background {
+.background {
     width: 100%;
     position: static;
     display: none;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    right: 0;
 }
 
-#header {
+
+.header {
     color: black;
     font-family: 'Raleway';
     text-align: center;
@@ -16,7 +23,7 @@
     margin-bottom: 0px;
 }
 
-#bar {
+.bar {
     background-color: black;
     color: white;
     opacity: 0.75;
@@ -27,11 +34,35 @@
     width: 100%;
     position: absolute;
     top: 67px;
+    left: 0;
 }
 
-#bar span:hover {
+.bar span:hover {
     background-color: white;
     color: black;
     cursor: pointer;
-    border-bottom: 1px;
 }
+
+.about_me {
+    margin-top: 60%;
+}
+
+.contact_imgs:hover {
+  opacity: 50%;
+}
+
+h2::before,
+h2::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid black;
+    width: 10rem;
+    margin: 0 1rem;
+    transform: translateY(-0.25rem);
+}
+
+table, th, td {
+    margin: auto;
+    padding: 25px;
+}
+
