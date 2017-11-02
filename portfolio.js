@@ -1,8 +1,5 @@
 $(document).ready(function() {
     
-    $(".background").fadeIn(1500);
+    $(".background").fadeIn(2000); 
 
-    $(".header").animate( {left: '250px'});
-    
-
-})
+});
