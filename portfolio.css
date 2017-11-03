@@ -2,17 +2,29 @@ h2 {
     text-align: center;
     font-family: 'Raleway';
     margin-bottom: 0px;
+    font-size: 45px;
+}
+.name {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 35px;
+    object-fit: cover;
+}
+.profile_pic {
+    position: relative;
+    object-fit: cover;
 }
 
 .background {
     width: 100%;
     height: 100%;
-    position: static;
-    display: none;
-    position: absolute;
-    top: 0;
+    object-fit: cover;
     left: 0;
     right: 0;
+    top: 0;
+    position: absolute;
 }
 
 
@@ -20,37 +32,46 @@ h2 {
     color: white;
     font-family: 'Raleway';
     float: left;
-    font-size: 50px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    font-size: 40px;
+    margin: auto;
+    padding: 7px 7px;
 }
 
 .bar {
-    display: inline-block;
     background-color: black;
     color: white;
     font-family: 'Saira Extra Condensed', sans-serif;
-    text-align: right;
     padding-left: 10px;
     font-size: 25px;
     width: 100%;
     top: 0;
     left: 0;
     position: fixed;
+    box-shadow: -3px 4px 7px gray;
 }
 
-.bar span:hover {
+.bar_container {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.bar_container span:hover {
     background-color: white;
     color: black;
     cursor: pointer;
 }
 
 .about_me {
-    margin-top: 30%;
+    margin-top: 33%;
+    text-align: center;
+}
+.about_me_container {
+    width: 500px;
 }
 
-.contact_imgs:hover {
-  opacity: 50%;
+
+.linkedin:hover, .github:hover {
+    opacity: 0.5;
 }
 
 
@@ -74,3 +95,16 @@ table, th, td {
     text-align: center;
 }
 
+.dojos_ninjas .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: black;
+}
+.dojos_ninjas:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
